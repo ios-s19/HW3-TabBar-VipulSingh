@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217E2D3B224865B500400237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D3A224865B500400237 /* AppDelegate.swift */; };
+		217E2D3D224865B500400237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D3C224865B500400237 /* ViewController.swift */; };
+		217E2D40224865B500400237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D3E224865B500400237 /* Main.storyboard */; };
+		217E2D42224865B700400237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D41224865B700400237 /* Assets.xcassets */; };
+		217E2D45224865B700400237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D43224865B700400237 /* LaunchScreen.storyboard */; };
+		217E2D50224865B700400237 /* HW3_TabBar_VipulSinghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D4F224865B700400237 /* HW3_TabBar_VipulSinghTests.swift */; };
+		217E2D5B224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D5A224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217E2D4C224865B700400237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217E2D2F224865B500400237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217E2D36224865B500400237;
+			remoteInfo = "HW3-TabBar-VipulSingh";
+		};
+		217E2D57224865B700400237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217E2D2F224865B500400237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217E2D36224865B500400237;
+			remoteInfo = "HW3-TabBar-VipulSingh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217E2D37224865B500400237 /* HW3-TabBar-VipulSingh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-TabBar-VipulSingh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217E2D3A224865B500400237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217E2D3C224865B500400237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		217E2D3F224865B500400237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217E2D41224865B700400237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217E2D44224865B700400237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217E2D46224865B700400237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217E2D4B224865B700400237 /* HW3-TabBar-VipulSinghTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3-TabBar-VipulSinghTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217E2D4F224865B700400237 /* HW3_TabBar_VipulSinghTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_TabBar_VipulSinghTests.swift; sourceTree = "<group>"; };
+		217E2D51224865B700400237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217E2D56224865B700400237 /* HW3-TabBar-VipulSinghUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3-TabBar-VipulSinghUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217E2D5A224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_TabBar_VipulSinghUITests.swift; sourceTree = "<group>"; };
+		217E2D5C224865B700400237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217E2D34224865B500400237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D48224865B700400237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D53224865B700400237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217E2D2E224865B500400237 = {
+			isa = PBXGroup;
+			children = (
+				217E2D39224865B500400237 /* HW3-TabBar-VipulSingh */,
+				217E2D4E224865B700400237 /* HW3-TabBar-VipulSinghTests */,
+				217E2D59224865B700400237 /* HW3-TabBar-VipulSinghUITests */,
+				217E2D38224865B500400237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217E2D38224865B500400237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217E2D37224865B500400237 /* HW3-TabBar-VipulSingh.app */,
+				217E2D4B224865B700400237 /* HW3-TabBar-VipulSinghTests.xctest */,
+				217E2D56224865B700400237 /* HW3-TabBar-VipulSinghUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217E2D39224865B500400237 /* HW3-TabBar-VipulSingh */ = {
+			isa = PBXGroup;
+			children = (
+				217E2D3A224865B500400237 /* AppDelegate.swift */,
+				217E2D3C224865B500400237 /* ViewController.swift */,
+				217E2D3E224865B500400237 /* Main.storyboard */,
+				217E2D41224865B700400237 /* Assets.xcassets */,
+				217E2D43224865B700400237 /* LaunchScreen.storyboard */,
+				217E2D46224865B700400237 /* Info.plist */,
+			);
+			path = "HW3-TabBar-VipulSingh";
+			sourceTree = "<group>";
+		};
+		217E2D4E224865B700400237 /* HW3-TabBar-VipulSinghTests */ = {
+			isa = PBXGroup;
+			children = (
+				217E2D4F224865B700400237 /* HW3_TabBar_VipulSinghTests.swift */,
+				217E2D51224865B700400237 /* Info.plist */,
+			);
+			path = "HW3-TabBar-VipulSinghTests";
+			sourceTree = "<group>";
+		};
+		217E2D59224865B700400237 /* HW3-TabBar-VipulSinghUITests */ = {
+			isa = PBXGroup;
+			children = (
+				217E2D5A224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift */,
+				217E2D5C224865B700400237 /* Info.plist */,
+			);
+			path = "HW3-TabBar-VipulSinghUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217E2D36224865B500400237 /* HW3-TabBar-VipulSingh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217E2D5F224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSingh" */;
+			buildPhases = (
+				217E2D33224865B500400237 /* Sources */,
+				217E2D34224865B500400237 /* Frameworks */,
+				217E2D35224865B500400237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW3-TabBar-VipulSingh";
+			productName = "HW3-TabBar-VipulSingh";
+			productReference = 217E2D37224865B500400237 /* HW3-TabBar-VipulSingh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217E2D4A224865B700400237 /* HW3-TabBar-VipulSinghTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217E2D62224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSinghTests" */;
+			buildPhases = (
+				217E2D47224865B700400237 /* Sources */,
+				217E2D48224865B700400237 /* Frameworks */,
+				217E2D49224865B700400237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217E2D4D224865B700400237 /* PBXTargetDependency */,
+			);
+			name = "HW3-TabBar-VipulSinghTests";
+			productName = "HW3-TabBar-VipulSinghTests";
+			productReference = 217E2D4B224865B700400237 /* HW3-TabBar-VipulSinghTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		217E2D55224865B700400237 /* HW3-TabBar-VipulSinghUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217E2D65224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSinghUITests" */;
+			buildPhases = (
+				217E2D52224865B700400237 /* Sources */,
+				217E2D53224865B700400237 /* Frameworks */,
+				217E2D54224865B700400237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217E2D58224865B700400237 /* PBXTargetDependency */,
+			);
+			name = "HW3-TabBar-VipulSinghUITests";
+			productName = "HW3-TabBar-VipulSinghUITests";
+			productReference = 217E2D56224865B700400237 /* HW3-TabBar-VipulSinghUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217E2D2F224865B500400237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vipul Singh";
+				TargetAttributes = {
+					217E2D36224865B500400237 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					217E2D4A224865B700400237 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 217E2D36224865B500400237;
+					};
+					217E2D55224865B700400237 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 217E2D36224865B500400237;
+					};
+				};
+			};
+			buildConfigurationList = 217E2D32224865B500400237 /* Build configuration list for PBXProject "HW3-TabBar-VipulSingh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217E2D2E224865B500400237;
+			productRefGroup = 217E2D38224865B500400237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217E2D36224865B500400237 /* HW3-TabBar-VipulSingh */,
+				217E2D4A224865B700400237 /* HW3-TabBar-VipulSinghTests */,
+				217E2D55224865B700400237 /* HW3-TabBar-VipulSinghUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217E2D35224865B500400237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217E2D45224865B700400237 /* LaunchScreen.storyboard in Resources */,
+				217E2D42224865B700400237 /* Assets.xcassets in Resources */,
+				217E2D40224865B500400237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D49224865B700400237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D54224865B700400237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217E2D33224865B500400237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217E2D3D224865B500400237 /* ViewController.swift in Sources */,
+				217E2D3B224865B500400237 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D47224865B700400237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217E2D50224865B700400237 /* HW3_TabBar_VipulSinghTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217E2D52224865B700400237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217E2D5B224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217E2D4D224865B700400237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217E2D36224865B500400237 /* HW3-TabBar-VipulSingh */;
+			targetProxy = 217E2D4C224865B700400237 /* PBXContainerItemProxy */;
+		};
+		217E2D58224865B700400237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217E2D36224865B500400237 /* HW3-TabBar-VipulSingh */;
+			targetProxy = 217E2D57224865B700400237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217E2D3E224865B500400237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217E2D3F224865B500400237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217E2D43224865B700400237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217E2D44224865B700400237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217E2D5D224865B700400237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		217E2D5E224865B700400237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217E2D60224865B700400237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSingh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSingh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217E2D61224865B700400237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSingh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSingh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		217E2D63224865B700400237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSinghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSinghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW3-TabBar-VipulSingh.app/HW3-TabBar-VipulSingh";
+			};
+			name = Debug;
+		};
+		217E2D64224865B700400237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSinghTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSinghTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW3-TabBar-VipulSingh.app/HW3-TabBar-VipulSingh";
+			};
+			name = Release;
+		};
+		217E2D66224865B700400237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSinghUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSinghUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW3-TabBar-VipulSingh";
+			};
+			name = Debug;
+		};
+		217E2D67224865B700400237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W37Q75MH7H;
+				INFOPLIST_FILE = "HW3-TabBar-VipulSinghUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vipulmacbookpro.HW3-TabBar-VipulSinghUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW3-TabBar-VipulSingh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217E2D32224865B500400237 /* Build configuration list for PBXProject "HW3-TabBar-VipulSingh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217E2D5D224865B700400237 /* Debug */,
+				217E2D5E224865B700400237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217E2D5F224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSingh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217E2D60224865B700400237 /* Debug */,
+				217E2D61224865B700400237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217E2D62224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSinghTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217E2D63224865B700400237 /* Debug */,
+				217E2D64224865B700400237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217E2D65224865B700400237 /* Build configuration list for PBXNativeTarget "HW3-TabBar-VipulSinghUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217E2D66224865B700400237 /* Debug */,
+				217E2D67224865B700400237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217E2D2F224865B500400237 /* Project object */;
+}
