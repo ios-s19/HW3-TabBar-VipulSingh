@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		217E2D3B224865B500400237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D3A224865B500400237 /* AppDelegate.swift */; };
-		217E2D3D224865B500400237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D3C224865B500400237 /* ViewController.swift */; };
 		217E2D40224865B500400237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D3E224865B500400237 /* Main.storyboard */; };
 		217E2D42224865B700400237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D41224865B700400237 /* Assets.xcassets */; };
 		217E2D45224865B700400237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217E2D43224865B700400237 /* LaunchScreen.storyboard */; };
 		217E2D50224865B700400237 /* HW3_TabBar_VipulSinghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D4F224865B700400237 /* HW3_TabBar_VipulSinghTests.swift */; };
 		217E2D5B224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D5A224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift */; };
+		217E2D69224B067B00400237 /* FirstTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D68224B067B00400237 /* FirstTabBarController.swift */; };
+		217E2D6B224B06D100400237 /* SecondTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E2D6A224B06D100400237 /* SecondTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		217E2D37224865B500400237 /* HW3-TabBar-VipulSingh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-TabBar-VipulSingh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		217E2D3A224865B500400237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		217E2D3C224865B500400237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		217E2D3F224865B500400237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		217E2D41224865B700400237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217E2D44224865B700400237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		217E2D56224865B700400237 /* HW3-TabBar-VipulSinghUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3-TabBar-VipulSinghUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		217E2D5A224865B700400237 /* HW3_TabBar_VipulSinghUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_TabBar_VipulSinghUITests.swift; sourceTree = "<group>"; };
 		217E2D5C224865B700400237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217E2D68224B067B00400237 /* FirstTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarController.swift; sourceTree = "<group>"; };
+		217E2D6A224B06D100400237 /* SecondTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				217E2D3A224865B500400237 /* AppDelegate.swift */,
-				217E2D3C224865B500400237 /* ViewController.swift */,
 				217E2D3E224865B500400237 /* Main.storyboard */,
 				217E2D41224865B700400237 /* Assets.xcassets */,
 				217E2D43224865B700400237 /* LaunchScreen.storyboard */,
 				217E2D46224865B700400237 /* Info.plist */,
+				217E2D68224B067B00400237 /* FirstTabBarController.swift */,
+				217E2D6A224B06D100400237 /* SecondTabBarController.swift */,
 			);
 			path = "HW3-TabBar-VipulSingh";
 			sourceTree = "<group>";
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				217E2D3D224865B500400237 /* ViewController.swift in Sources */,
+				217E2D6B224B06D100400237 /* SecondTabBarController.swift in Sources */,
+				217E2D69224B067B00400237 /* FirstTabBarController.swift in Sources */,
 				217E2D3B224865B500400237 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
